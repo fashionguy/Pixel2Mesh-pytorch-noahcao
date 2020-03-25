@@ -24,7 +24,7 @@ def test():
         optimizer.zero_grad()
         loss.backward()
         optimizer.step()
+        # print(loss)
         print(loss)
-
 
 test()
