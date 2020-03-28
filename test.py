@@ -25,6 +25,7 @@ def test():
         loss.backward()
         optimizer.step()
         # print(loss)
+        # test
         print(loss)
 
 test()
